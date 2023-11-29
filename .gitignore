@@ -2,3 +2,5 @@
 build/**
 dist/**
 mathstropy.egg-info/**
+__pycache__
+.DS_Store

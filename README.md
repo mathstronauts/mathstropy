@@ -1,5 +1,29 @@
-# Example Package
+# python_exp_learning
+This repository contains activities for learning  coding skills in python.
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+
+# Getting Started
+
+```
+>>> conda env create -f env.yaml
+```
+
+```
+>>> conda activate mathstro_veh_env
+```
+
+## For Development
+Windows
+```
+>>> pip install -e .[dev]
+```
+
+Mac
+```
+>>> pip install -e .'[dev]'
+```
+
+## For Non-Development Purposes
+```
+>>> pip install -e
+```
